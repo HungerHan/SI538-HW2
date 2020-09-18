@@ -5,14 +5,12 @@ body{
 
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 525px;
+div{
+    resize: both;
+    min-height: 150px;
+    padding: 25px;
+    overflow: auto;
 }
-
 
 h1 {
     font-size: 64px;
@@ -24,11 +22,21 @@ h2 {
     text-shadow: 5px, 5px, 2px #808080;
 }
 
-div{
-    resize: both;
-    min-height: 150px;
-    padding: 25px;
-    overflow: auto;
+p{
+    font-size: 24px;
+    padding-top: 20px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 525px;
+}
+
+footer{
+    text-align: right;
+    padding: 0px, 10px, 10px, 0px;
 }
 
 #red{
@@ -43,7 +51,7 @@ div{
 
 #yellow{
     background-color: #ffd800;
-
+    text-align: right;
 }
 
 #yellow h2{
@@ -52,7 +60,7 @@ div{
 }
 
 #yellow p{
-    color: #000000
+    color: #000000;
 }
 
 #green {
@@ -60,13 +68,6 @@ div{
     text-align: left;
 }
 
-p{
-    font-size: 24px;
-
-}
 
 
-footer{
-    text-align: right;
-    padding: 10px;
-}
+
