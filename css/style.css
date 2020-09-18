@@ -1,7 +1,7 @@
 body{
     background-color: #000000;
     color: #ffffff;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: 'Lucida Grande', sans-serif;
 
 }
 
@@ -34,9 +34,9 @@ img {
     width: 525px;
 }
 
-footer{
-    text-align: right;
+footer {
     padding: 0px 10px 10px 0px;
+    text-align: right
 }
 
 #red{
